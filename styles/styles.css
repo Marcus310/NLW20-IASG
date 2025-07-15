@@ -64,6 +64,7 @@ section > div{
   padding: 2rem;
   border-radius: 0.8rem;
   padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 section h1{
@@ -143,9 +144,34 @@ button#askButton:disabled:hover {
   font-size: 13px;
 }
 
-
 .loading{
   animation: pulse 1s infinite;
+}
+
+#aiResponse ul{
+  padding-left: 1rem;
+  padding-top: 0.75rem;
+  color: #e9e9e9;
+  font-size: 1.1rem;
+  font-family: var(--font02);
+  
+}
+
+#aiResponse p{
+  color: var(--cor02);
+  font-size: 1.5rem;
+  font-family: var(--font01);
+}
+
+#aiResponse{
+  background-color:var(--cor05);
+  border-radius: 0.8rem;
+  padding: 1.35rem;
+  border-left: 5px solid #36D8AC;
+}
+
+.hidden{
+  display: none;
 }
 
 @keyframes pulse {
