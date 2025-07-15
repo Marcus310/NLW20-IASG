@@ -5,22 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assistente Gamer</title>
-  <link rel="stylesheet" href="../styles/styles.css">
-  <script src="../scripts/index.js" defer></script>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+  <script src="/scripts/index.js" defer></script>
 </head>
-
 <body class="background">
-
   <header>
-    <img src="../assets/logo.png" alt="" id="logo">
-
+    <img src="/assets/logo.png" alt="" id="logo">
   </header>
-
   <main>
     <section>
       <div>
         <h1>Assistência de Meta</h1>
-        <p>Qual build você precisa para sua jogatina?</p>
+        <p>Qual build ou deck você gostaria ?</p>
         <form id="form">
           <input id="apiKey" type="password" placeholder="Digite a API-KEY do Gemini" required>
           <select id="gameSelect">
@@ -34,14 +31,12 @@
           <input id="questionInput" type="text" placeholder="Ex: melhor deck de golem" required>
           <button id="askButton">PERGUNTAR</button>
         </form>
-        <div id="aiReponse">
+        <div id="aiResponse" class="hidden">
           <div class="response-content">
-
           </div>
         </div>
       </div>
     </section>
   </main>
-
 </body>
 </html>
