@@ -1,5 +1,6 @@
 # NLW20-IASG
 ## Status do Projeto: Em desenvolvimento :arrows_counterclockwise:
+## Acesse clicando <a href="https://iasg.netlify.app/" target="_blank" rel="noopener noreferrer">aqui</a>
 ## Descrição do projeto 
 IASG - inteligência artificial de suporte para Gamers, é um projeto feito para o NLW da rocketseat numero 20, onde é possível pesquisar por decks em jogos de cartas ou builds em jogos como League of Legends ou Pokemon TCG <br><br>
 <img width="850" height="auto" alt="image" src="https://github.com/user-attachments/assets/1be70430-503d-4454-896b-360d81846258" />
